@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GecoSI.Net", "src\GecoSI.Net\GecoSI.Net.csproj", "{300DD499-3E12-4935-BECA-CBB7ECA4F551}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GecoSI.Net.Tests", "tests\GecoSI.Net.Tests\GecoSI.Net.Tests.csproj", "{FCD1B62C-E6D1-4334-844B-A0B219DC7787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GecoSI.Net.ConsoleApplication", "src\GecoSI.Net.Console\GecoSI.Net.ConsoleApplication.csproj", "{68FF3714-BFF2-4102-8D03-490C5DCB147E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FA1F060A-D7A4-402A-B876-B4FE5201CD81}"
+	ProjectSection(SolutionItems) = preProject
+		LICENCE.txt = LICENCE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{300DD499-3E12-4935-BECA-CBB7ECA4F551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{300DD499-3E12-4935-BECA-CBB7ECA4F551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{300DD499-3E12-4935-BECA-CBB7ECA4F551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{300DD499-3E12-4935-BECA-CBB7ECA4F551}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FCD1B62C-E6D1-4334-844B-A0B219DC7787}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCD1B62C-E6D1-4334-844B-A0B219DC7787}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCD1B62C-E6D1-4334-844B-A0B219DC7787}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCD1B62C-E6D1-4334-844B-A0B219DC7787}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68FF3714-BFF2-4102-8D03-490C5DCB147E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68FF3714-BFF2-4102-8D03-490C5DCB147E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68FF3714-BFF2-4102-8D03-490C5DCB147E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68FF3714-BFF2-4102-8D03-490C5DCB147E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
