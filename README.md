@@ -4,6 +4,7 @@ GecoSI
 Copyright (c) 2013-2014 Simon Denier & Yannis Guedel.
 
 Open-source C#.NET library to use the SPORTident timing system.
+GecoSI.Net is an port of the Java library [GecoSI](http://github.com/sdenier/gecosi) of Simon Denier.
 
 Distributed under the MIT license (see LICENSE file).
 
