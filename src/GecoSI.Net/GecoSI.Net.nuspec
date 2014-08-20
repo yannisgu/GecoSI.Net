@@ -8,7 +8,7 @@
     <owners>yannisgu</owners>
     <licenseUrl>https://github.com/yannisgu/GecoSI.Net/blob/master/LICENCE.txt</licenseUrl>
     <projectUrl>https://github.com/yannisgu/GecoSI.Net</projectUrl>
-    <iconUrl>https://github.com/yannisgu/GecoSI.Net/master/GecoSI-Logo.png</iconUrl>
+    <iconUrl>https://raw.githubusercontent.com/yannisgu/GecoSI.Net/master/docs/GecoSI-Logo.png</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>$description$</description>
     <releaseNotes></releaseNotes>
