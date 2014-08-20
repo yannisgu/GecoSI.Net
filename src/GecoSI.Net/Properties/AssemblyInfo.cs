@@ -9,11 +9,11 @@ using System.Runtime.InteropServices;
 // associated with an assembly.
 
 [assembly: AssemblyTitle("GecoSI.Net")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Library for communicating with the SPORTIdent timing service.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("GecoSI.Net")]
-[assembly: AssemblyCopyright("Copyright ©  2014")]
+[assembly: AssemblyCopyright("Copyright ©  2014 by Simon Denier & Yannis Guedel")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
