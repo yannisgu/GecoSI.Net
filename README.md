@@ -1,6 +1,7 @@
 GecoSI.Net
 ======
 ![GecoSI.Net](https://raw.githubusercontent.com/yannisgu/GecoSI.Net/master/docs/GecoSI-Logo.png)
+
 Copyright (c) 2013-2014 Simon Denier & Yannis Guedel.
 
 Open-source C#.NET library to use the SPORTident timing system.
