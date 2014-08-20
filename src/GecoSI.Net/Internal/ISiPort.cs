@@ -1,4 +1,7 @@
-﻿namespace GecoSI.Net
+﻿//  
+//  Copyright (c) 2013-2014 Simon Denier & Yannis Guedel
+//  
+namespace GecoSI.Net
 {
     public interface ISiPort
     {

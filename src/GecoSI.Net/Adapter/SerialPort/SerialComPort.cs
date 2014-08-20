@@ -1,4 +1,7 @@
-﻿using System.IO.Ports;
+﻿//  
+//  Copyright (c) 2013-2014 Simon Denier & Yannis Guedel
+//  
+using System.IO.Ports;
 
 namespace GecoSI.Net.Adapter.SerialPort
 {

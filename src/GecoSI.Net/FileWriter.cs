@@ -1,4 +1,7 @@
-﻿using System.IO;
+﻿//  
+//  Copyright (c) 2013-2014 Simon Denier & Yannis Guedel
+//  
+using System.IO;
 using System.Linq;
 
 namespace GecoSI.Net

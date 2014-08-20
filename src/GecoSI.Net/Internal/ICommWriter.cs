@@ -1,4 +1,7 @@
-﻿using GecoSI.Net.Internal;
+﻿//  
+//  Copyright (c) 2013-2014 Simon Denier & Yannis Guedel
+//  
+using GecoSI.Net.Internal;
 
 namespace GecoSI.Net
 {

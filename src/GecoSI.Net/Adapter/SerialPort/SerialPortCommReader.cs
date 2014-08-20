@@ -1,4 +1,7 @@
-﻿using System;
+﻿//  
+//  Copyright (c) 2013-2014 Simon Denier & Yannis Guedel
+//  
+using System;
 using System.IO.Ports;
 using System.Linq;
 using GecoSI.Net.Internal;

@@ -1,4 +1,7 @@
-﻿using System;
+﻿//  
+//  Copyright (c) 2013-2014 Simon Denier & Yannis Guedel
+//  
+using System;
 using System.Collections.Generic;
 using System.IO;
 using GecoSI.Net.Internal;
