@@ -113,6 +113,12 @@ namespace GecoSI.Net
             siListener.Notify(errorStatus, errorMessage);
         }
 
+        public virtual bool OnEcardDown(string siNumber)
+        {
+            return siListener.OnEcardDown(siNumber);   
+            
+        }
+
         public void Run()
         {
             try

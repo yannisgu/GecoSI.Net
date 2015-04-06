@@ -11,27 +11,7 @@ namespace GecoSI.Net.Dataframe
 
         protected static readonly long ONE_DAY = 2*TWELVE_HOURS;
 
-        protected byte[] dataFrame;
-
-        protected int ByteAt(int i)
-        {
-            return dataFrame[i] & 0xFF;
-        }
-
-        protected int WordAt(int i)
-        {
-            return ByteAt(i) << 8 | ByteAt(i + 1);
-        }
-
-        protected int Block3At(int i)
-        {
-            return ByteAt(i) << 16 | WordAt(i + 1);
-        }
-
-        protected long TimestampAt(int i)
-        {
-            return 1000L*WordAt(i);
-        }
+      
 
         public long AdvanceTimePast(long timestamp, long refTime, long stepTime)
         {

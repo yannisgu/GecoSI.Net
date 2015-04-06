@@ -202,6 +202,23 @@ namespace GecoSI.Net
                 siHandler.Notify(CommStatus.Ready);
                 SiMessage message = queue.Take();
                 siHandler.Notify(CommStatus.Processing);
+
+                if (!message.Valid())
+                {
+                    return DISPATCH_READY;
+                }
+
+                if (message.CommandByte() == SiMessage.SI_CARD_5_DETECTED ||
+                    message.CommandByte() == SiMessage.SI_CARD_6_PLUS_DETECTED ||
+                    message.CommandByte() == SiMessage.SI_CARD_8_PLUS_DETECTED)
+                {
+                    var bytes = new ByteFrame(message.Data());
+                    if (!siHandler.OnEcardDown(bytes.Block3At(5).ToString()))
+                    {
+                        return ACK_READ.Send(writer, siHandler);
+                    }
+                }
+
                 switch (message.CommandByte())
                 {
                     case SiMessage.SI_CARD_5_DETECTED:

@@ -20,5 +20,11 @@ namespace GecoSI.Net.ConsoleApplication
         {
             Console.WriteLine("Error -> " + errorStatus + " " + errorMessage);
         }
+
+        public bool OnEcardDown(string siNumber)
+        {
+            Console.WriteLine(siNumber);
+            return false;
+        }
     }
 }

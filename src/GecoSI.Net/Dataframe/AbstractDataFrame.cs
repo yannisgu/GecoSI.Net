@@ -5,7 +5,7 @@ using System;
 
 namespace GecoSI.Net.Dataframe
 {
-    public abstract class AbstractDataFrame : ISiDataFrame
+    public abstract class AbstractDataFrame : ByteFrame, ISiDataFrame
     {
         private  const string TIME_FORMATTER = "H:mm:ss";
         public  const long NO_TIME = -1;

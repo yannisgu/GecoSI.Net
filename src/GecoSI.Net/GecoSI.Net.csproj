@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>GecoSI.Net</RootNamespace>
     <AssemblyName>GecoSI.Net</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -47,6 +48,7 @@
     <Compile Include="Adapter\SerialPort\SerialComPort.cs" />
     <Compile Include="Adapter\SerialPort\SerialPortCommReader.cs" />
     <Compile Include="CommStatus.cs" />
+    <Compile Include="Dataframe\ByteFrame.cs" />
     <Compile Include="Dataframe\SiPlusSeries.cs" />
     <Compile Include="Internal\ICommWriter.cs" />
     <Compile Include="Dataframe\AbstractDataFrame.cs" />

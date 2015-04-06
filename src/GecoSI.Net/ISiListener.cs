@@ -13,5 +13,7 @@ namespace GecoSI.Net
         void Notify(CommStatus status);
 
         void Notify(CommStatus errorStatus, String errorMessage);
+
+        bool OnEcardDown(string siNumber);
     }
 }
